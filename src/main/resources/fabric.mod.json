@@ -1,0 +1,50 @@
+{
+	"schemaVersion": 1,
+	"id": "mutemod",
+	"version": "${version}",
+	"name": "Mute Mod",
+	"description": "Adds a keybind to toggle master volume mute on and off.",
+	"authors": [
+		"yukentsii"
+	],
+	"contact": {
+		"sources": "https://github.com/yukentsii/mute-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mutemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.example.MuteMod",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "com.example.client.MuteModClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "com.example.client.MuteModDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"mute-mod.mixins.json",
+		{
+			"config": "mute-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}

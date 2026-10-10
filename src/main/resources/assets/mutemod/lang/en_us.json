@@ -1,0 +1,6 @@
+{
+  "category.mutemod": "Mute Mod",
+  "key.mutemod.toggle": "Toggle Master Mute",
+  "text.mutemod.muted": "Master Volume: Muted",
+  "text.mutemod.restored": "Master Volume: %d%%"
+}
