@@ -1,6 +1,6 @@
 # Mute Mod 🔇
 
-A lightweight, client-side Fabric mod for Minecraft 26.3 that allows you to instantly toggle master volume mute on and off with a single keybind.
+A lightweight, client-side Fabric mod for Minecraft that allows you to instantly toggle master volume mute on and off with a single keybind.
 
 ---
 
@@ -17,18 +17,20 @@ A lightweight, client-side Fabric mod for Minecraft 26.3 that allows you to inst
 
 ## 📦 Requirements
 
-- **Minecraft:** 26.3
-- **Fabric Loader:** >= 0.20.1
-- **Fabric API:** 0.165.0+26.3
-- **Fabric Language Kotlin:** 1.14.2+
-- **Java:** 25
+- **Minecraft**
+- **Fabric Loader**
+- **Fabric API**
+- **Fabric Language Kotlin**
+- **Java**
+
+The exact versions each build needs are listed in its [release notes](https://github.com/yukentsii/mute-mod/releases).
 
 ---
 
 ## 🚀 Installation
 
-1. Make sure you have [Fabric Loader](https://fabricmc.net/) installed for Minecraft 26.3.
-2. Download `mute-mod-1.1.0.jar` from the [Releases](https://github.com/yukentsii/mute-mod/releases) page.
+1. Make sure you have [Fabric Loader](https://fabricmc.net/) installed for your Minecraft version.
+2. Download the mod `.jar` that matches your Minecraft version from the [Releases](https://github.com/yukentsii/mute-mod/releases) page.
 3. Place the `.jar` file into your `.minecraft/mods` directory (or your launcher's mod folder).
 4. Launch the game, head to *Options -> Controls -> Key Binds*, and configure the **Toggle Mute** key under the **Mute Mod** category (unbound by default).
 
