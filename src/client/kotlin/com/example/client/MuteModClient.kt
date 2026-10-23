@@ -21,7 +21,7 @@ object MuteModClient : ClientModInitializer {
     val TOGGLE_MUTE_KEY: KeyMapping = KeyMappingHelper.registerKeyMapping(
         KeyMapping(
             "key.mutemod.toggle",              // translation key
-            InputConstants.Type.KEYSYM,
+            InputConstants.Type.KEYBOARD,
             InputConstants.UNKNOWN.value,      // unbound by default (GLFW_KEY_UNKNOWN = -1)
             MUTE_MOD_CATEGORY
         )
